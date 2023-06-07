@@ -7,7 +7,7 @@
   <title>Radio Button</title>
 </head>
 <body>
-  <form action="radio_button.php" method="post">
+  <form action="radio_button3.php" method="post">
     <input type="radio" name="credit_card" value="Visa">Visa</br>
     <input type="radio" name="credit_card" value="Master card">Master Card</br>
     <input type="radio" name="credit_card" value="American express">American express</br>
@@ -29,7 +29,7 @@ if(isset($_POST["confirm"])){
     case "Visa":
       echo "You selected Visa";
       break;
-    case "Mastercard":
+    case "Master card":
       echo "You selected Master card";  
       break;
     case "American express":
